@@ -6,6 +6,8 @@
     height: max-content;
     border-radius: 10px;
     position: relative;
+    box-shadow: 1px 1px 5px rgba(59, 59, 59, 0.781);
+
 }
 
 .box_closed {
