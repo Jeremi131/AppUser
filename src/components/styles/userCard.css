@@ -3,12 +3,12 @@
     padding: 1rem;
     width: 100%;
     max-width: 350px;
-    height: max-content;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     gap: 1rem;
     box-shadow: 1px 1px 5px rgba(59, 59, 59, 0.507);
+    flex-wrap: wrap;
 }
 
 .card_name{
