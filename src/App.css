@@ -1,0 +1,65 @@
+.app_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 3rem;
+}
+
+.app_open_form {
+    width: max-content;
+    padding: 0.5rem 1rem 0.5rem 1.5rem;
+    background-color: rgb(255, 36, 65);
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    gap: 5px;
+}
+
+.app_open_form:hover{
+    background-color: rgb(250, 13, 44);
+}
+
+.app_tittle{
+    color: rgb(34, 34, 34);
+}
+
+.box_open{
+    font-size: 1.2rem;
+}
+
+.app_form {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(14, 14, 14, 0.575);
+    backdrop-filter: blur(3px);
+    transform: scale(0);
+    transition: transform 200ms ease;
+}
+
+.app_form-visible {
+    transform: scale(1);
+}
+
+
+.app_card{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1400px;
+    margin: 1rem auto 0 auto;
+    padding-bottom: 3rem;
+}
+
+
+
+
